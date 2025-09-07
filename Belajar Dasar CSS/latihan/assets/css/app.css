@@ -1,0 +1,150 @@
+body {
+    background-color: teal;
+}
+
+/* membuat huruf yang ditulis dalam inputan berwarna selain hitam */
+input[type="search"], [type="password"] {
+    color: tomato;
+}
+
+
+/* ini buat kolom pilihan */
+
+/* labels for checked inputs */
+input:checked + label {
+    color: red;
+}
+
+
+/* radio element, when checked */
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px orange;
+}
+
+
+/* checkbox element, when checked */
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+
+
+/* option elemnets, when selected */
+option:checked {
+    box-shadow: 0 0 0 3px lime;
+    color: redx;
+}
+
+
+
+/* direct descendant */
+
+.tes > p{
+    color: tomato;
+    background-color: wheat;
+}
+
+
+/* cursor jadi pointer, underlined, dan color*/
+.tes > p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+}
+
+/* pake last dimulai dari akhir */
+
+/* section:nth-last-of-type(2) {
+    background-color: black;
+    color: white;
+} */
+
+/* ini setiap kelipatan 2, bg nya berubah, kaya selang seling gitu*/
+section:nth-of-type(2n) {
+    background-color: black;
+    color: white;
+}
+
+
+h1, h2, h3 {
+    color: wheat;
+    background-color: black;
+}
+
+li {
+    color: black;
+}
+
+li #list2 {
+    color: red;
+}
+
+span {
+    color: wheat;
+}
+
+
+/* ajdacent selector */
+
+p + button {
+    background-color: slateblue;
+    color: white;
+}
+
+
+
+/* ******************************************************** */
+
+/* body {
+    height: 190vh;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190vh;
+    flex-direction: column;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px ;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.article {
+    margin-top: 60vh;
+}
+
+.article h1 {
+    text-align: center;
+}
+
+.article .pengertian {
+    text-align: start;
+    margin-bottom: 100px;
+}
+
+.article .jenis {
+    text-align: start;
+} */

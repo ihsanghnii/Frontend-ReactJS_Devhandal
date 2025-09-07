@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Formulir Pembelian</h1>
+    <hr>
+    <form action="#" method="get">
+
+        <div>
+            <label for="nama">nama</label>
+            <br>
+            <input type="text" name="nama" id="nama" placeholder="nama" required minlength="3">
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="password">password</label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="password" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="number">Nomor Telepon</label>
+            <br>
+            <input type="number" name="number" id="number" placeholder="nomor telepon" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="date">Tanggal Pengisian</label>
+            <br>
+            <input type="date" name="date" id="date" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="alamat">alamat</label>
+            <br>
+            <textarea name="alamat" id="alamat" cols="30" rows="5" placeholder="masukkan alamat kamu" required></textarea>
+        </div>
+
+        <br>
+        <hr>   
+
+        <h1>Pesanan</h1>
+
+        <div>
+            <label for="barang">barang</label><br>
+            <input type="radio" name="radio" id="radio" value="baju">
+            <label for="baju">baju</label>
+            <br>
+            <input type="radio" name="radio" id="radio" value="sepatu">
+            <label for="sepatu">sepatu</label>
+            <br>
+            <input type="radio" name="radio" id="radio" value="sendal">
+            <label for="sendal">sendal</label>
+            <br><br>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="jumlah">Jumlah</label><br>
+            <input type="number" name="jumlah" id="jumlah" min="1" max="10" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="ukuran">ukuran</label>
+            <br>
+            <select name="ukuran" id="ukuran">
+                <option value="">--Pilih ukuran baju--</option>
+                <option value="M">M</option>
+                <option value="S">S</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label for="pilih">Pilih dulu</label><br>
+            <input type="checkbox" name="kursi" id="kursi" value="kursi">
+            <label for="kursi">kursi</label>
+            <br>
+            <input type="checkbox" name="iphone" id="iphone" value="iphone">
+            <label for="iphone">iphone</label>
+            <br>
+            <input type="checkbox" name="ac" id="ac" value="ac">
+            <label for="ac">ac</label>
+        </div>
+
+        <br><br>
+
+        <button type="submit">order</button>
+
+    </form>
+</body>
+</html>
