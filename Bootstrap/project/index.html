@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Museum Bootstrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MUSEUM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#ticket">Ticket</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center mx-0 content">
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="text-white text-center" id="title-head">
+                    <h1>MUSEUM OF BUILDING</h1>
+                    <h1>MUSEUM OF BUILDING</h1>
+                    <h1>MUSEUM OF BUILDING</h1>
+                    <h1>MUSEUM OF BUILDING</h1>
+                    <h1>MUSEUM OF BUILDING</h1>
+                    <h1>MUSEUM OF BUILDING</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid w-100" src="assets/img/img1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="row align-items-center mx-0 content" id="about">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="assets/img/img4.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb pt-3">
+                        <h2>KOTA TUA</h2>
+                        <img src="assets/img/img4.jpg" height="60" alt="" class="d-none d-lg-inline" id="kotu">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur beatae ipsum distinctio, quam molestiae amet natus debitis repudiandae ducimus mollitia repellat asperiores dignissimos dolorem minima, quis soluta inventore velit sint?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center mx-0 content" id="ticket">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="assets/img/img5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb pt-3">
+                        <h2>POS INDONESIA</h2>
+                        <img src="assets/img/img5.jpg" height="60" alt="" class="d-none d-lg-inline" id="kotu">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur beatae ipsum distinctio, quam molestiae amet natus debitis repudiandae ducimus mollitia repellat asperiores dignissimos dolorem minima, quis soluta inventore velit sint?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+          const $nav = $('#navbar');
+          function onScroll() {
+            $nav.toggleClass('scrolled', $(window).scrollTop() > $nav.outerHeight());
+          }
+          $(window).on('load scroll', onScroll);
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    background: #c2ded1;
+    font-family: 'Nunito', sans-serif;
+}
+
+#navbar {
+    font-size: 1.5rem;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .nav-link:hover {
+    color: #354259;
+}
+
+#navbar .navbar-brand {
+    color: #354259;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background-color: #c2ded1;
+}
+
+#title-head h1 {
+    font-size: 3rem;
+}
+
+.blurb h2 {
+    color: #2e579d;
+}
+
+.blurb p {
+    color: #405051;
+    line-height: 2;
+}
+
+section #kotu {
+    margin: 16px 0;
+}
+
+.content {
+    margin: 100px 0 40px;
+}
+
+section .container-fluid:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1400px) {
+    #title-head h1{
+        font-size: 2rem;
+    }
+}
