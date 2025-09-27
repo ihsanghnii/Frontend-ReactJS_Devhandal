@@ -1,15 +1,14 @@
-import './App.css'
-import Article from './components/Article'
+import './App.css';
+import Homepage from './pages/Index';
 
 function App() {
-
   return (
     <>
-    <div className="App">
-      <Article />
-    </div>
+      <div className="App">
+        <Homepage />
+      </div>
     </>
-  )
+  );
 }
 
 export default App
