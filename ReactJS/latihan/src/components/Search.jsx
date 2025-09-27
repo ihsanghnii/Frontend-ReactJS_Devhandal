@@ -24,7 +24,7 @@ function Search(props) {
         <button onClick={onSearchChange}>Cari</button>
       </div>
       <small>
-        Ditemukan {props.totalPosts} data dengan pencarian kata {searchKeydOwn}
+        Ditemukan {props.totalPosts} data dengan pencarian kata {search}
       </small>
     </>
   );

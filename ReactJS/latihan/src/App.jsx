@@ -1,14 +1,22 @@
-import './App.css';
-import Homepage from './pages/Index';
+import "./App.css";
+import { GlobalContext } from "./context";
+import { RouterProvider } from "react-router-dom";
+import {router} from './routers';
 
 function App() {
+  const user = {
+    username: "ihsan",
+  };
+
   return (
     <>
       <div className="App">
-        <Homepage />
+        <GlobalContext.Provider value={user} >
+          <RouterProvider router={router} />
+        </GlobalContext.Provider>
       </div>
     </>
   );
 }
 
-export default App
+export default App;
