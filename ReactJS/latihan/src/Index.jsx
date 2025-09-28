@@ -52,9 +52,7 @@ function Home() {
       <hr />
       <h2>External Posts</h2>
       {externalPosts.map((item, index) => (
-        <div key={index}>
-          - {item.title}
-        </div>
+        <div key={index}>- {item.title}</div>
       ))}
     </>
   );
