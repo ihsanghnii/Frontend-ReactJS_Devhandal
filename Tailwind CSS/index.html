@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https:use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
   </head>
   <body>
     <!-- layout -->
-    <section class="w-screen mx-auto px-4 h-8">
-      <nav class="flex flex-wrap p-6 justify-between">
+    <section class="w-full mx-auto px-4 py-4 h-8 mb-10">
+      <nav class="flex flex-wrap px-4 justify-between">
         <div class="flex flex-shrink-0 mr-6">
-          <img src="assets/img/logo.png" alt="logo" class="h-10 w-50 mr-2" />
+          <img src="assets/img/logo.png" alt="logo" class="h-8 w-50 mr-2" />
         </div>
         <div class="block lg:hidden">
           <a
@@ -60,10 +65,103 @@
           >
         </div>
       </nav>
-      <!-- about -->
-      <section class="w-full mx-auto py-4 bg-sky-600 h-32">About me</section>
     </section>
 
-    
+    <!-- about -->
+    <section class="w-full mx-auto py-4 gradient">
+      <div class="px-16 pt-6 text-center text-white">
+        <h1 class="w-full text-5xl font-bold">About me</h1>
+        <div class="mt-4">
+          <div class="bg-pink-500 w-1/4 opacity-75 rounded h-1 mx-auto"></div>
+        </div>
+        <h2 class="text-3xl font-bold mt-2 text-white text-center pt-6">
+          Hai, Saya Ihsan,
+        </h2>
+        <h2 class="text-3xl font-bold mb-4 text-white text-center">
+          Seorang full stack web developer
+        </h2>
+        <p class="text-lg">
+          Memiliki pengalaman membangun aplikasi dari awal hingga akhir
+          menggunakan teknologi modern seperti React.js untuk front-end dan
+          Laravel untuk back-end.
+        </p>
+        <div class="w-full">
+          <div class="px-4 pt-8">
+            <img
+              src="assets/img/Foto.png"
+              alt="Foto ihsan"
+              class="shadow-lg rounded-full max-w-full mx-auto text-center w-48"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 bg-white px-4 py-4 md:py-8 md:px-8 m-16 rounded-lg"
+      >
+        <!-- card 1 -->
+        <div class="max-w shadow-lg px-4 py-4 bg-white text-center m-3 flex flex-col justify-between">
+          <i class="fas fa-laptop-code text-blue-500 fa-5x mb-6"></i>
+          <div class="p-8">
+            <p class="font-bold text-lg md:text-xl mb-6">Programming</p>
+            <p class="text-grey-600 text-base mb-2">Laravel</p>
+            <hr class="text-grey-600 mb-2" />
+            <p class="text-grey-600 text-base mb-2">React JS</p>
+            <hr class="text-grey-600 mb-2" />
+          </div>
+
+          <div class="px-2 py-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg"
+            >
+              Lihat Portofolio
+            </button>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="max-w shadow-lg px-4 py-4 bg-white m-3 text-center flex flex-col justify-between">
+          <i class="fas fa-pencil-ruler text-red-500 fa-5x mb-6"></i>
+          <div class="p-8">
+            <p class="font-bold text-lg md:text-xl mb-6">Design</p>
+            <p class="text-grey-600 text-base mb-2">Figma</p>
+            <hr class="text-grey-600 mb-2" />
+            <p class="text-grey-600 text-base mb-2">UI/UX Design</p>
+            <hr class="text-grey-600 mb-2" />
+            <p class="text-grey-600 text-base mb-2">Tailwind CSS</p>
+            <hr class="text-grey-600 mb-2" />
+          </div>
+
+          <div class="px-2 py-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg"
+            >
+              Lihat Portofolio
+            </button>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="max-w shadow-lg px-4 py-4 bg-white m-3 text-center flex flex-col justify-between">
+          <i class="fas fa-database text-green-500 fa-5x mb-6"></i>
+          <div class="p-8">
+            <p class="font-bold text-lg md:text-xl mb-6">Database</p>
+            <p class="text-grey-600 text-base mb-2">MySQL</p>
+            <hr class="text-grey-600 mb-2" />
+            <p class="text-grey-600 text-base mb-2">Desain Database</p>
+            <hr class="text-grey-600 mb-2" />
+          </div>
+
+          <div class="px-2 py-4">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg"
+            >
+              Lihat Portofolio
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </section>
   </body>
 </html>
