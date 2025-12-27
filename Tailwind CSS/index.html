@@ -7,8 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
-    rel="stylesheet"
-    href="https:use.fontawesome.com/releases/v5.7.0/css/all.css"
+      rel="stylesheet"
+      href="https:use.fontawesome.com/releases/v5.7.0/css/all.css"
     />
   </head>
   <body>
@@ -40,17 +40,17 @@
               >About Me</a
             >
             <a
-              href="#recent"
+              href="#recent_work"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-md mr-4"
               >Recent Work</a
             >
             <a
-              href="#skill"
+              href="#skills"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-md mr-4"
-              >Framework Skill</a
+              >Framework Skills</a
             >
             <a
-              href="#contact"
+              href="#contact_me"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-md mr-4"
               >Contact Me</a
             >
@@ -68,7 +68,7 @@
     </section>
 
     <!-- about -->
-    <section class="w-full mx-auto py-4 gradient">
+    <section id="about" class="w-full mx-auto py-4 gradient">
       <div class="px-16 pt-6 text-center text-white">
         <h1 class="w-full text-5xl font-bold">About me</h1>
         <div class="mt-4">
@@ -100,7 +100,9 @@
         class="grid grid-cols-1 md:grid-cols-3 bg-white px-4 py-4 md:py-8 md:px-8 m-16 rounded-lg"
       >
         <!-- card 1 -->
-        <div class="max-w shadow-lg px-4 py-4 bg-white text-center m-3 flex flex-col justify-between">
+        <div
+          class="max-w shadow-lg px-4 py-4 bg-white text-center m-3 flex flex-col justify-between"
+        >
           <i class="fas fa-laptop-code text-blue-500 fa-5x mb-6"></i>
           <div class="p-8">
             <p class="font-bold text-lg md:text-xl mb-6">Programming</p>
@@ -120,7 +122,9 @@
         </div>
 
         <!-- card 2 -->
-        <div class="max-w shadow-lg px-4 py-4 bg-white m-3 text-center flex flex-col justify-between">
+        <div
+          class="max-w shadow-lg px-4 py-4 bg-white m-3 text-center flex flex-col justify-between"
+        >
           <i class="fas fa-pencil-ruler text-red-500 fa-5x mb-6"></i>
           <div class="p-8">
             <p class="font-bold text-lg md:text-xl mb-6">Design</p>
@@ -142,7 +146,9 @@
         </div>
 
         <!-- card 3 -->
-        <div class="max-w shadow-lg px-4 py-4 bg-white m-3 text-center flex flex-col justify-between">
+        <div
+          class="max-w shadow-lg px-4 py-4 bg-white m-3 text-center flex flex-col justify-between"
+        >
           <i class="fas fa-database text-green-500 fa-5x mb-6"></i>
           <div class="p-8">
             <p class="font-bold text-lg md:text-xl mb-6">Database</p>
@@ -160,8 +166,249 @@
             </button>
           </div>
         </div>
-        
       </div>
+    </section>
+
+    <!-- Skill -->
+    <section id="skills" class="w-screen mx-auto py-4 bg-white px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4 mt-20">
+          <img
+            src="https://picsum.photos/550/400"
+            class="max-w-full rounded-lg shadow-lg"
+          />
+        </div>
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div>
+            <h1
+              class="w-full my-2 text-5xl font-bold text-center text-gray-700"
+            >
+              Skill Framework
+            </h1>
+            <div class="mb-4">
+              <div
+                class="h-1 mx-auto bg-pink-500 w-2/3 opacity-75 my-0 mx-0 rounded"
+              ></div>
+            </div>
+            <p class="mt-4 text-lg text-gray-600">
+              Berikut adalah item dan skala keahlian untuk framework :
+            </p>
+            <ul class="list-none mt-4">
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Codeigniter</p>
+                <div class="gradient-skill w-7/8"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Laravel</p>
+                <div class="gradient-skill w-3/4"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Bootstrap</p>
+                <div class="gradient-skill w-2/3"></div>
+              </li>
+              <li class="grid grid-cols-2 py-2">
+                <p class="text-lg text-gray-600">Tailwindcss</p>
+                <div class="gradient-skill w-1/2"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Work -->
+    <section id="recent_work" class="py-8 bg-white container mx-auto px-8">
+      <div class="text-center mb-8">
+        <h1 class="w-full my-2 text-5xl font-bold text-gray-700">
+          My Recent Work
+        </h1>
+        <div class="mb-4">
+          <div
+            class="h-1 mx-auto bg-pink-500 w-2/3 md:w-1/4 opacity-75 my-0 py-0 rounded"
+          ></div>
+          <p class="text-lg m-4 text-gray-600">
+            Berikut adalah pekerjaan terbaru Saya :
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 m-8">
+          <!-- recent work 1 -->
+          <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+            <img
+              src="https://picsum.photos/550/400"
+              class="w-full rounded-lg"
+            />
+            <div class="px-2 py-2 text-center">
+              <p class="font-bold text-xl mb-2 text-gray-700">
+                Sistem Informasi Penelitian
+              </p>
+              <p class="text-gray-700 text-base">
+                Sistem Informasi penelitian untuk dosen dan mahasiswa di
+                Universitas XX
+              </p>
+            </div>
+            <div class="px-2 py-4 text-center">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+
+          <!-- recent work 2 -->
+          <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+            <img
+              src="https://picsum.photos/550/400"
+              class="w-full rounded-lg"
+            />
+            <div class="px-2 py-2 text-center">
+              <p class="font-bold text-xl mb-2 text-gray-700">
+                Sistem Informasi Perpustakaan
+              </p>
+              <p class="text-gray-700 text-base">
+                Sistem Informasi Perpustakaan untuk Perpustakaan kota ABC
+              </p>
+            </div>
+            <div class="px-2 py-4 text-center">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+
+          <!-- recent work 3 -->
+          <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+            <img
+              src="https://picsum.photos/550/400"
+              class="w-full rounded-lg"
+            />
+            <div class="px-2 py-2 text-center">
+              <p class="font-bold text-xl mb-2 text-gray-700">
+                Sistem Informasi Keuangan
+              </p>
+              <p class="text-gray-700 text-base">
+                Sistem Informasi Keuangan untuk perusahaan ABC
+              </p>
+            </div>
+            <div class="px-2 py-4 text-center">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+
+          <!-- recent work 4 -->
+          <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+            <img
+              src="https://picsum.photos/550/400"
+              class="w-full rounded-lg"
+            />
+            <div class="px-2 py-2 text-center">
+              <p class="font-bold text-xl mb-2 text-gray-700">
+                Sistem Informasi Asset
+              </p>
+              <p class="text-gray-700 text-base">
+                Sistem Informasi Asset untuk Laboratorium ABC
+              </p>
+            </div>
+            <div class="px-2 py-4 text-center">
+              <button
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg"
+              >
+                Detail
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section
+      id="contact_me"
+      class="w-screen mx-auto py-4 gradient-bottom md:px-4"
+    >
+      <h1 class="w-full my-2 text-5xl font-bold text-center text-white">
+        Contact Me
+      </h1>
+      <div class="mb-4">
+        <div
+          class="h-1 mx-auto bg-pink-500 w-1/4 opacity-75 my-0 py-0 rounded"
+        ></div>
+      </div>
+      <div
+        class="container p-4 mb-6 w-full lg:w-1/2 shadow-lg rounded-lg bg-gray-200 mx-auto"
+      >
+        <form class="p-5 lg:p-10 text-center">
+          <h4 class="text-2xl font-semibold">Ingin menghubungi saya?</h4>
+          <p class="mt-1 mb-4 text-gray-600">Tolong kirimkan pesan.</p>
+          <div class="w-full mb-4 mt-8">
+            <label class="uppercase text-gray-600 text-xs font-bold"
+              >Nama Lengkap</label
+            >
+            <input
+              type="text"
+              class="mt-2 px-3 py-3 placeholder-gray-500 text-gray-600 bg-white rounded text-sm shadow w-full"
+              placeholder="Nama Lengkap"
+            />
+          </div>
+
+          <div class="w-full mb-4 mt-4">
+            <label class="uppercase text-gray-600 text-xs font-bold"
+              >Email</label
+            >
+            <input
+              type="text"
+              class="mt-2 px-3 py-3 placeholder-gray-500 text-gray-600 bg-white rounded text-sm shadow w-full"
+              placeholder="Email"
+            />
+          </div>
+
+          <div class="w-full mb-4 mt-4">
+            <label class="uppercase text-gray-600 text-xs font-bold"
+              >Pesan</label
+            >
+            <textarea
+              id=""
+              cols="80"
+              rows="4"
+              class="mt-2 px-3 py-3 placeholder-gray-500 text-gray-600 bg-white rounded text-sm shadow w-full"
+              placeholder="Tuliskan Pesan"
+            ></textarea>
+          </div>
+
+          <div class="mt-6">
+            <button
+              class="bg-indigo-700 text-white text-sm font-bold uppercase px-6 py-3 rounded shadow hover:bg-indigo-900 hover:shadow-lg"
+              type="button"
+            >
+              Kirim Pesan
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="w-screen mx-auto py-4 bg-white mt-8 mb-8">
+      <div class="text-center">
+        <!-- link & icon -->
+        <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2">
+          <i class="fa-2x fab fa-facebook"></i>
+        </a>
+        <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2">
+          <i class="fa-2x fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2">
+          <i class="fa-2x fab fa-instagram"></i>
+        </a>
+      </div>
+      <div class="text-center mt-4 text-gray-600">Design with Tailwindcss</div>
+      <div class="text-center mt-4 text-gray-600">&copy 2025 Ihsan</div>
     </section>
   </body>
 </html>
